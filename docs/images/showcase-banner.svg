@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">Physics Exam Companion</title>
+  <desc id="description">A physics study archive with 18 PDF guides, eight courses, and 1,122 pages. An original illustration combines an open book with orbital curves.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101e36"/>
+      <stop offset="1" stop-color="#071320"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.45" r="0.65">
+      <stop offset="0" stop-color="#154660" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#071320" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9f7ff"/>
+      <stop offset="1" stop-color="#a4c5d7"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9bd6e6" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="400" rx="22" fill="url(#glow)"/>
+  <rect width="1200" height="400" rx="22" fill="url(#grid)"/>
+  <path d="M0 1H1200" stroke="#5dd6d0" stroke-opacity="0.6" stroke-width="2"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="60" y="42" width="6" height="18" rx="3" fill="#5dd6d0"/>
+    <text x="80" y="56" fill="#a7bdce" font-size="13" font-weight="600" letter-spacing="2.2">PH301–PH308 · STUDY ARCHIVE</text>
+    <text x="60" y="133" fill="#f3f8fc" font-size="60" font-weight="750" letter-spacing="1">PHYSICS</text>
+    <text x="60" y="191" fill="#f3f8fc" font-size="47" font-weight="650" letter-spacing="0.5">EXAM COMPANION</text>
+    <text x="62" y="230" fill="#a7bdce" font-size="18">Incourse papers · Year-final papers · Worked exercises</text>
+
+    <g transform="translate(60 275)">
+      <rect width="188" height="82" rx="12" fill="#142a40" stroke="#29435a"/>
+      <text x="20" y="37" fill="#5dd6d0" font-size="28" font-weight="700">18</text>
+      <text x="20" y="61" fill="#b8cbd8" font-size="12" font-weight="600" letter-spacing="1.5">PDF GUIDES</text>
+    </g>
+    <g transform="translate(262 275)">
+      <rect width="188" height="82" rx="12" fill="#142a40" stroke="#29435a"/>
+      <text x="20" y="37" fill="#5dd6d0" font-size="28" font-weight="700">8</text>
+      <text x="20" y="61" fill="#b8cbd8" font-size="12" font-weight="600" letter-spacing="1.5">PHYSICS COURSES</text>
+    </g>
+    <g transform="translate(464 275)">
+      <rect width="188" height="82" rx="12" fill="#142a40" stroke="#29435a"/>
+      <text x="20" y="37" fill="#f3c879" font-size="28" font-weight="700">1,122</text>
+      <text x="20" y="61" fill="#b8cbd8" font-size="12" font-weight="600" letter-spacing="1.5">PAGES TO EXPLORE</text>
+    </g>
+  </g>
+
+  <path d="M790 62V338" stroke="#365166" stroke-opacity="0.55"/>
+  <g transform="translate(990 161)" fill="none">
+    <circle r="121" stroke="#719dad" stroke-opacity="0.12"/>
+    <circle r="91" stroke="#719dad" stroke-opacity="0.12" stroke-dasharray="3 7"/>
+    <ellipse rx="120" ry="43" stroke="#5dd6d0" stroke-opacity="0.8" stroke-width="2" transform="rotate(-27)"/>
+    <ellipse rx="120" ry="43" stroke="#5dd6d0" stroke-opacity="0.45" stroke-width="2" transform="rotate(35)"/>
+    <ellipse rx="120" ry="43" stroke="#8dbbd1" stroke-opacity="0.5" stroke-width="2" transform="rotate(90)"/>
+    <circle r="9" fill="#f3c879" stroke="none"/>
+    <circle cx="94" cy="-58" r="5" fill="#5dd6d0" stroke="none"/>
+    <circle cx="-87" cy="-51" r="5" fill="#8dbbd1" stroke="none"/>
+    <circle cx="-5" cy="114" r="5" fill="#5dd6d0" stroke="none"/>
+  </g>
+
+  <g transform="translate(857 242)">
+    <path d="M0 14Q62 -9 133 17Q204 -9 266 14V72Q195 62 133 85Q71 62 0 72Z" fill="#133248" stroke="#5dd6d0" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M7 0Q70 -18 133 10Q196 -18 259 0V64Q197 49 133 76Q69 49 7 64Z" fill="url(#book)"/>
+    <path d="M133 10V76" stroke="#577d92" stroke-width="2"/>
+    <g stroke="#527b91" stroke-width="2" stroke-linecap="round" opacity="0.62">
+      <path d="M27 15Q68 9 108 23M27 28Q68 22 108 36M27 41Q68 35 95 44" fill="none"/>
+      <path d="M159 23Q199 9 239 15M159 36Q199 22 239 28M172 44Q199 35 239 41" fill="none"/>
+    </g>
+    <path d="M122 75L133 85L145 75" fill="none" stroke="#5dd6d0" stroke-width="2"/>
+  </g>
+</svg>
